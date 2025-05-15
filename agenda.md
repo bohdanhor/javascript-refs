@@ -11,7 +11,7 @@
 
 ## After numbers.js - Code Breaker
 Create an code breaker application.
-1. The user should be able to guess the 4-digit code.
+1. The user should be able to guess the 4-digit code. **DONE**
 2. If the guess is more than 4 digits, an error message should be logged to the console.
 3. If the guess is less than 3 digits, an error message should be logged to the console.
 4. If the user guesses correctly, a congratulations message should be logged to the console.
