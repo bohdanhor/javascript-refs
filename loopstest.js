@@ -28,13 +28,38 @@
 // }
 // while (count>0);
 
-let userInput;
+// let userInput;
 
-do {
-    userInput = prompt("Choose a number between 1 and 10");
-    userInput = parseInt(userInput);
-    console.log(userInput);
+// do {
+//     userInput = prompt("Choose a number between 1 and 10");
+//     userInput = parseInt(userInput);
+//     console.log(userInput);
     
-} while(
-    isNaN(userInput) || userInput < 1 || userInput > 10
-);
+// } while(
+//     isNaN(userInput) || userInput < 1 || userInput > 10
+// );
+
+
+// function hi() {
+//     console.log("hello!");
+//     let value = 1 + 3;
+//     console.log(value);
+// }
+
+// hi();
+// hi();
+//     let count = 2;
+// do {
+//     hi();
+
+// }
+// while (count = 0);
+
+function calculateVolume(width, height, length) {
+    return width * height * length;
+}
+
+console.log(calculateVolume(3,2,7));
+
+let greeting = (name) => `Hello, ${name}!`;
+console.log(greeting("Ben"));
